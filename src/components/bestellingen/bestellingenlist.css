@@ -1,0 +1,41 @@
+.bestellingen-container {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .table-container, .detail-container {
+    flex: 1 0 100%;
+    margin: 0;
+    overflow-x: auto;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .content-container {
+      flex-direction: row;
+    }
+    .table-container, .detail-container {
+      flex: 1;
+      margin: 10px;
+      width: auto;
+    }
+  }
+
+  .sort-container {
+    display: flex;
+    align-items: center; /* Zorgt voor verticale uitlijning */
+  }
+  .sort-label {
+    margin: 0 10px 0 50% ;
+  }
+.select{
+    border-radius: 5px;
+  }

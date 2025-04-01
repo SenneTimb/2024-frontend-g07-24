@@ -1,0 +1,26 @@
+export const BESTELLING_DATA = [
+  {
+    orderId: 1,
+    Betaalwijze: '',
+    betalingsdeadline: '2024-06-30T10:09:22.534Z',
+    betalingsstatus: 'betaald',
+    datumgeplaatst: '2024-06-30T10:09:22.534Z',
+    leveradres: 'kerkstraat 1',
+    orderstatus: 'verzonden',
+    totaalOrderBedrag: 200,
+    klant: 'Techsolutions',
+    leverancier: 'TechsolutionsLeveraar',
+  },
+  {
+    orderId: 2,
+    Betaalwijze: '',
+    betalingsdeadline: '2024-06-30T10:09:22.534Z',
+    betalingsstatus: 'betaald',
+    datumgeplaatst: '2024-06-30T10:09:22.534Z',
+    leveradres: 'kerkstraat 2',
+    orderstatus: 'verzonden',
+    totaalOrderBedrag: 201,
+    klant: 'Techsolutions',
+    leverancier: 'TechsolutionsLeveraar',
+  },
+];

@@ -1,0 +1,9 @@
+.HomePage {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: white;
+}
+.hero {
+  background-size: cover;
+  padding: 20px 0;
+}

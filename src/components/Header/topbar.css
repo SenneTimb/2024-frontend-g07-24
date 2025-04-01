@@ -1,0 +1,19 @@
+.top-bar {
+  background-color: #C42828;
+  color: #fff;
+  padding: 19px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.top-bar-content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  padding: 0 20px;
+  position: relative;
+}

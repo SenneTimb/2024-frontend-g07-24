@@ -1,0 +1,93 @@
+/* BestellingDetailPage.css */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px; /* Rounded corners for the card */
+  overflow: hidden; /* Ensures content fits within the corners */
+  background: #ffffff; /* Light background for the card */
+}
+
+.card-body {
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333; /* Darker text for better readability */
+  background: #f9f9f9; /* Slightly off-white background inside the card */
+}
+
+.card-title {
+  color: #0056b3; /* Adds a color to the title for emphasis */
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.card-text {
+  padding: 5px 0; /* Padding to space out text */
+  border-bottom: 1px solid #eee; /* Lines to separate items */
+}
+
+.card-text:last-child {
+  border-bottom: none; /* Removes border from the last item */
+}
+
+.card-text strong {
+  color: #000; /* Makes the labels bold and darker */
+  display: block; /* Ensures labels are on their own line */
+  margin-bottom: 5px; /* Space below the label */
+}
+
+.info-section {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee; /* visually separate sections */
+}
+
+.info-section h6 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-table {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  border-collapse: collapse;
+}
+
+.info-table th {
+  background: #eee;
+  text-align: left;
+  padding: 8px;
+}
+
+.info-table td {
+  padding: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.qrcode-container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.qrcode-succes-container {
+  padding-top: 50px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qrcode-succes {
+  width: 80px;
+  height: 80px;
+  color: green;
+  stroke-width: 3px;
+}

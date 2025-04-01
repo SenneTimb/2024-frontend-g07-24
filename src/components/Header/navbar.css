@@ -1,0 +1,127 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+}
+
+nav a.active {
+  color: darkblue;
+}
+
+.navbar .navbar-brand {
+  text-align: center;
+}
+
+.navbar .navbar-brand img {
+  max-width: 150px; 
+  height: auto;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar .user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.navbar .user-actions .winkelwagen {
+  max-width: 36.53px;
+}
+
+.custom-logo {
+  margin-left: 100px;
+}
+
+.custom-logo.authed {
+  margin-left: 53px; 
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notification-btn {
+  position: relative;
+}
+
+.notification-icon {
+  width: 25px;
+  height: auto;
+  color: black;
+  fill: white;
+  transition: fill .2s ease-in;
+}
+
+.notification-btn:hover .notification-icon {
+  fill: black;
+}
+
+.notification-num {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+  width: 18px;
+  height: 18px;
+  font-size: small;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+
+  .navbar .navbar-nav, .navbar .user-actions {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navbar .navbar-nav.open, .navbar .user-actions.open {
+    display: flex;
+  }
+
+  .navbar .navbar-toggler {
+    display: block;
+    order: 1;
+  }
+
+  .navbar .navbar-brand {
+    order: 2;
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  .navbar .navbar-nav {
+    order: 3;
+  }
+
+  .navbar .user-actions {
+    order: 4; 
+  }
+
+  .custom-logo {
+    margin-left: 0;
+  }
+
+  .custom-logo.authed {
+    margin-left: 0;
+  }
+}
+

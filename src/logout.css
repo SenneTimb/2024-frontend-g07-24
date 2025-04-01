@@ -1,0 +1,32 @@
+
+  
+  .logout-success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .checkmark-icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+  }
+  
+  .display-4 {
+    font-weight: 500;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #6c757d;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }

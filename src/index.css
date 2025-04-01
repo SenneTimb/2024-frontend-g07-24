@@ -1,0 +1,39 @@
+/* Default state with light transparency for each status */
+tr:hover .status-betaald {
+  background-color: #28a745 !important; /* Solid green on hover */
+  color: white; /* White text for better readability */
+  transition: background-color 0.3s ease;
+}
+
+.status-betaald {
+  background-color: rgba(40, 167, 69, 0.4) !important; /* Light green with transparency */
+  color: #1e7e34; /* Dark green text */
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+tr:hover .status-onverwerkt {
+  background-color: #dc3545 !important; /* Solid red on hover */
+  color: white; /* White text for better readability */
+  transition: background-color 0.3s ease;
+}
+
+.status-onverwerkt {
+  background-color: rgba(220, 53, 69, 0.4) !important; /* Light red with transparency */
+  color: #c82333; /* Dark red text */
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+tr:hover .status-factuurverzonden {
+  background-color: #17a2b8 !important; /* Solid blue on hover */
+  color: white; /* White text for better readability */
+  transition: background-color 0.3s ease;
+}
+
+.status-factuurverzonden {
+  background-color: rgba(23, 162, 184, 0.4) !important; /* Light blue with transparency */
+  color: #138496; /* Dark blue text */
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
